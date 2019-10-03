@@ -1,0 +1,22 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "blob",
+      "direction": "out",
+      "name": "$return",
+      "path": "output/{name}.json",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
