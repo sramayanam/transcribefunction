@@ -15,7 +15,7 @@ import json
 def transcribe(url):
     logging.info("Starting transcription client...")
     # Your subscription key and region for the speech service
-    SUBSCRIPTION_KEY = "a26d46abc6da42f5997773648a772f9e"
+    SUBSCRIPTION_KEY = ""
     SERVICE_REGION = "southcentralus"
     NAME = "Simple transcription"
     DESCRIPTION = "Simple transcription description"
